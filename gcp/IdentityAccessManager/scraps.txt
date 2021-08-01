@@ -1,0 +1,178 @@
+
+IAM
+CENGINE
+GSECURITY
+GPEOPLE
+GKMS
+
+
+Next Step:
+
+1. install startup scripts via gloud and check errors and make sure it works. (Completed )
+2. Use gcloud for server creations and logon to server with gcloud through bash script. ( Completed 100%)
+3. start the instances part of the code. (completed 100%)
+
+
+
+1. storage connects to cloud Completed
+    a) Buckets Create (Completed 100%)
+
+2. completed the iam part of the software code.
+    a) Create a service account on the run [to create addition service account ] (Completed)
+    b) Create a project on the go (Completed )
+    c) Add permissions and roles to it
+        c1) iam roles and permissions
+        c2) List them roles and permissions (Completed 100%)
+
+    d) delete service accounts with all necessary instruments (Completed 100%)
+
+
+
+
+
+3.
+    a) Test VPN scripts %%%
+    b) Database Scripts ( Completed 100%)
+    c) WebStartup Scripts ( Completed 100%)
+
+
+4.)
+    a) Test Instance Scripts and complete it with errors exceptions
+    b) Create Front for main.py ( Complete 40%)
+    c)
+
+
+
+
+
+
+instance = ec2.create_instances(
+
+	DryRun=True|False,
+	ImageId='string',
+	MinCount=123,
+	MaxCount=123,
+	KeyName='string',
+	SecurityGroups=[
+	'string',
+	],
+
+	SecurityGroupIds=[
+	'string',
+	],
+
+	UserData='string',
+	InstanceType='t1.micro'|'m1.small'|'m1.medium'|'m1.large'|'m1.xlarge'|'m3.medium'|'m3.la
+
+	Placement={
+	'AvailabilityZone': 'string',
+	'GroupName': 'string',
+	'Tenancy': 'default'|'dedicated'
+	},
+
+	KernelId='string',
+	RamdiskId='string',
+	BlockDeviceMappings=[
+
+	{
+	'VirtualName': 'string',
+	'DeviceName': 'string',
+	'Ebs': {
+	'SnapshotId': 'string',
+	'VolumeSize': 123,
+	'DeleteOnTermination': True|False,
+	'VolumeType': 'standard'|'io1'|'gp2',
+	'Iops': 123,
+	'Encrypted': True|False
+	},
+	'NoDevice': 'string'
+	},
+	],
+
+	Monitoring={
+	'Enabled': True|False
+	},
+	SubnetId='string',
+	DisableApiTermination=True|False,
+	InstanceInitiatedShutdownBehavior='stop'|'terminate',
+	PrivateIpAddress='string',
+	ClientToken='string',
+	AdditionalInfo='string',
+
+	NetworkInterfaces=[
+	{
+	'NetworkInterfaceId': 'string',
+	'DeviceIndex': 123,
+	'SubnetId': 'string',
+	'Description': 'string',
+	'PrivateIpAddress': 'string',
+	'Groups': [
+	'string',
+	],
+
+	'DeleteOnTermination': True|False,
+	'PrivateIpAddresses': [
+	{
+	'PrivateIpAddress': 'string',
+	'Primary': True|False
+	},
+	],
+
+	'SecondaryPrivateIpAddressCount': 123,
+	'AssociatePublicIpAddress': True|False
+	},
+	],
+
+	IamInstanceProfile={
+	'Arn': 'string',
+	'Name': 'string'
+	},
+
+	EbsOptimized=True|False
+	)
+
+
+
+ImageIdUbuntu = ["ami-0ca5c3bd5a268e7db",
+                "ami-0047c52ed2f1519a3",
+                "ami-007d3f6486d9d3e6c",
+                "ami-008dcc948fb88a63a"
+                ]
+
+
+ImageIdDebian = [ "ami-97b790ef",
+                   "ami-b4f8edcd",
+                   "ami-cbad0eb3",
+                   "ami-818eb7b1"
+                  ]
+
+
+ImageIdCentos = [ "ami-00a092bd80d7ff7dd",
+                    "ami-00b6409ca5f35471f",
+                    "ami-00d11f107a772bf8d",
+                    "ami-010afb7ef35a5c1ea"
+                   ]
+
+
+ImageIdAmazon = [ "ami-036c394a8b6e11a45",
+                   "ami-03920bf5f903e90d4",
+                   "ami-041fcb43d4730cf32",
+                   "ami-05a8e8d7f6573b136",
+                   ]
+
+
+GroupID
+ssh keys
+elastic Ips
+connecting to server Paramiko
+IAM polices
+connection Class
+Lightsail
+
+
+
+
+
+
+
+
