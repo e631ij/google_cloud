@@ -184,7 +184,7 @@ creds = os.environ[
 
 startup_scripts = [
 
-	"/home/eliaz777/PycharmProjects/google_cloud/cengine/GeneralStartupScript.sh",
+	"/home/elias777/PycharmProjects/google_cloud/gcp/cengine/GeneralStartupScript.sh",
 	"/home/eliaz777/PycharmProjects/google_cloud/cengine/gengine_connect.sh"
 
 ]

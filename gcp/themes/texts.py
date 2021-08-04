@@ -25,15 +25,14 @@ COMPUTE_MENU = ["\n1. INSTANCE",
             "3. SECURITY GROUPS",
             "4. NETWORK ACL",
             "5. AUTOMATE INSTANCES",
-            "6. VPN AUTOMATED INSTANCES",
             "B. BACK TO MAIN MENU\n"
             ]
 
 
 BUCKET_MENU = ["\n1. BUCKET",
            "2. BUCKET WEBSITE",
-           "3. CRYPTOGRAPHY",
-           "B. BACK TO MAIN MENU\n"
+           "3. IMAGE CRYPTOGRAPHY",
+           "X. BACK TO MAIN MENU\n"
            ]
 
 
@@ -138,7 +137,7 @@ iam_text_key = ["Enter KeyName: "]
 
 iam_text_policy = ["Enter Policy Name: ", "Enter Scope (ALL | LOCAL | AWS ): "]
 
-compute_text_instance = ["Enter keyName: ",
+compute_text_instance = ["Enter keyName/Instance Name: ",
                      "Enter GroupName: ",
                      "Enter CIDR: ",
                      "Enter SecurityGroup Description (Not more that 50 Letters): ",
