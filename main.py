@@ -4,6 +4,7 @@ from time import sleep
 from gcp.themes.texts import *
 from gcp.setup.Config import *
 from gcp.buckets.gclouds_buckets import *
+from gcp.themes.images import *
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger()
@@ -13,6 +14,7 @@ logger = logging.getLogger()
 def bucket_menu():
 	shell("clear")
 
+	print(LEFTSIDE1)
 	# Displays the MENU
 	displays(BUCKET_MENU)
 
@@ -164,7 +166,6 @@ def main():
 
 	else:
 		exit(0)
-
 
 
 
